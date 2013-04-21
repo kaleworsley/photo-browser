@@ -1,4 +1,4 @@
-Photo Browser
+Photo Browser [![Build Status](https://travis-ci.org/kaleworsley/photo-browser.png?branch=master)](https://travis-ci.org/kaleworsley/photo-browser)
 =============
 
 Photo Browser is a simple sinatra app for browsing my photo collection. It's really shit.
