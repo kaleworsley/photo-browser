@@ -1,0 +1,11 @@
+<ul class="breadcrumb">
+  <li class="active">Years</li>
+</ul>
+
+<h1>Years</h1>
+
+<ul>
+  <% @years.each do |year| %>
+    <li><a href="/<%= year %>"><%= year %></li>
+  <% end %>
+</ul>

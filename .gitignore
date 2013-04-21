@@ -1,0 +1,8 @@
+/public/photos
+/log/*.log
+/tmp/pids/*
+/tmp/sockets/*
+.DS_Store
+*.swp
+*~
+

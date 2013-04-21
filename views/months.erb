@@ -1,0 +1,12 @@
+<ul class="breadcrumb">
+  <li><a href="/">Years</a> <span class="divider">/</span></li>
+  <li class="active"><%= @year %></li>
+</ul>
+
+<h1><%= @year %></h1>
+
+<ul>
+  <% @months.each do |month| %>
+    <li><a href="/<%= @year %>/<%= month %>"><%= month %></li>
+  <% end %>
+</ul>
