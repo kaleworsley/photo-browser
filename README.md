@@ -68,6 +68,14 @@ service nginx restart
 service photo-browser-unicorn restart
 ```
 
+TODO
+----
+
+- Refactor `PhotoBrowser::Filesystem` to allow different directory structures.
+- More specs (feature specs, perhaps)
+- Better setup instructions
+- Add support for videos
+
 Notes
 -----
 
